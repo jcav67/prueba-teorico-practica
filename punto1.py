@@ -2,7 +2,10 @@
 palabras_distintivas = []
 num_ocurrencias_por_palabra=[]
 contador = 0
-# 2,2,3,4,5,6,6,6,7,9
+"""
+    Se nombra el archivo a abrir file.txt de forma arbitraria, este archivo puede
+    ser modificado con las palabras que se deseen
+"""
 palabras = open('file.txt','r').readlines()
 # Se eliminan los saltos de linea del archivo leido
 palabras_limpias = [l.strip('\n\r') for l in palabras]
@@ -19,6 +22,10 @@ for palabra in palabras_limpias:
 
 num_palabras_distintivas= len(palabras_distintivas)
 
+"""
+    se crea un archivo llamado archivo_punto1.txt en caso de que no exista
+    si existe este es sobreescrito
+"""
 nuevo_archivo = open("archivo_punto1.txt", "w")
 nuevo_archivo.write(str(num_palabras_distintivas))
 nuevo_archivo.write('\n')
