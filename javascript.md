@@ -22,6 +22,7 @@
 - [x] pudding
 
 >P8.¿Qué palabra clave para la definición de variable permite acceder a la variable (como  undefined) antes de la línea en la que es definida?
+- [x] var
 
 >P9.¿Por qué elegiría hacer su código asíncrono?
 - [x]  Para iniciar tareas que pueden llevar algún tiempo sin bloquear la ejecución inmediata de tareas posteriores.

@@ -2,7 +2,7 @@
 
 > P1.¿Que es una clase abstracta?
 
-- [x]
+- [x]  Una clase abstracta existe solo para que otras clases "concretas" puedan heredar de la clase abstracta.
 
 > P2.¿Qué sucede cuando usa la función incorporada "any()" en una lista?
 
@@ -14,6 +14,7 @@ contrario, devuelve False.
 - [x] Colas
 
 > P4.¿Qué es un método estático?
+- [x]  Sirven principalmente como métodos de utilidad o métodos auxiliares, ya que no pueden acceder ni modificar el estado de una clase.
 
 >P5.¿Qué son los atributos?
 - [x]  Los argumentos de función se denominan "atributos" en el contexto de los métodos de 
@@ -23,7 +24,7 @@ clase y los métodos de instancia.
 - [x] método “.pop()”
 
 > P7.¿Cuál es el tiempo de ejecución para acceder a un valor en un diccionario usando su clave?
-- [x] 
+- [x]  “O(1)”, también llamado tiempo constante
 
 > P8.¿Cuál es la forma correcta de escribir un doctest?
 - [x] def sum(a, b): <br>

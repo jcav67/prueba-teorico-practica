@@ -56,7 +56,7 @@ def diferencia_horas(inicio, final) -> dict:
   dia_final    = datetime.datetime.strptime(final, '%d/%m/%Y %H:%M:%S')
   diferencia_dias = dia_final - dia_inicial
 
-  return {"segundos":diferencia_dias.seconds, "Horas":diferencia_dias.seconds/3600, "Días": diferencia_dias.days }
+  return {"segundos":diferencia_dias.seconds, "Horas":round(diferencia_dias.seconds/3600), "Días": diferencia_dias.days }
 
 
 fecha_1 ='10/10/2022 10:22:20 +5000'
