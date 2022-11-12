@@ -11,6 +11,8 @@ contrario, devuelve False.
 
 > P3.¿A qué estructura de datos degenera un árbol binario si no está equilibrado correctamente?
 
+- [x] Colas
+
 > P4.¿Qué es un método estático?
 
 >P5.¿Qué son los atributos?

@@ -2,6 +2,8 @@
 
 > P1.Las palabras clave AND, IN, LIKE y BETWEEN pertenecen a una categoría llamada ¿Cual?
 
+- [x] Operaciones lógicas
+
 >P2.¿Cuál es el resultado de esta serie de sentencias?
 - [x] Foo
 
@@ -27,3 +29,4 @@
 - Left Join devuelve la consulta con todos los datos de la tabla de la izquierda y además los datos de cumplen la condicion especificada de la tabla de la derecha
 
 >P10. ¿Qué hace la expresión Full Outer Join?
+- Es el equivalente a realizar un left join y un right join por lo que traera todos los datos de las 2 tablas
